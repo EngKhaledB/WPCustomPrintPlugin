@@ -1,0 +1,127 @@
+/***************  Tabs Styles ****************/
+.swp-print {
+    margin-right: 2%;
+}
+
+.swp-print .tabs {
+    position: relative;
+    min-height: 200px; /* This part sucks */
+    clear: both;
+    margin: 25px 0;
+}
+
+.swp-print .tab {
+}
+
+.swp-print .tabs-header label.tab-label {
+    background: #eee;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-left: -1px;
+    position: relative;
+    left: 1px;
+}
+
+.swp-print .content {
+    background: white;
+    padding: 20px;
+    margin-top: 9px;
+    border: 1px solid #ccc;
+    display: none;
+}
+
+.swp-print .content {
+
+}
+
+.swp-print label.tab-label.active {
+    background: white;
+    border-bottom: 1px solid white;
+    z-index: 2;
+}
+
+.swp-print .active .content {
+    display: block;
+}
+
+/*************** End of Tabs Styles ****************/
+
+/*************** General Styles *******************/
+.content section {
+    border: 1px solid #b4b9be;
+    padding: 10px;
+    border-radius: 3px;
+    margin: 20px auto;
+}
+
+.content section h2 {
+    border-bottom: 1px solid #f1f1f1;
+    padding-bottom: 10px;
+    margin: 0 0 20px 0;
+}
+
+.content section label.inline-lbl {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+li.icon_text {
+    width: 85px;
+    float: left;
+    height: 45px;
+}
+
+li.icon_text input[type=text],
+li.icon_text input[type=number] {
+    width: 80px;
+}
+
+.half_section {
+    width: 48%;
+    float: left;
+}
+
+.half_section.right_section {
+    float: right;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+* html .clearfix {
+    zoom: 1;
+}
+
+*:first-child + html .clearfix {
+    zoom: 1;
+}
+
+.row_setting {
+    margin-bottom: 10px;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-bottom: 5px;
+}
+
+/*************** End of General Styles ************/
+
+/*************** Permissions Tab *******************/
+
+.swp-permissions-label {
+    display: block;
+    overflow: hidden;
+    margin: 10px;
+}

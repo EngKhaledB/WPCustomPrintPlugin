@@ -1,0 +1,10 @@
+/*************** End of Permissions Tab ************/
+@media print {
+    a:after {
+        content: "" !important;
+    }
+    a {
+        text-decoration: none !important;
+        border-bottom: none !important;
+    }
+}
